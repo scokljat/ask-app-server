@@ -1,90 +1,156 @@
 {
   "users": [
     {
-      "email": "selma.cokljat@gmail.com",
-      "password": "$2a$10$GLfqJ0HrgBjtGd4kbA7dFOP84YbR04YFn1oOQct1.hkqykGPYM0HG",
-      "firstName": "Sellma",
-      "lastName": "Cokljat",
-      "numberOfAnswers": 4,
+      "email": "johndoe@gmail.com",
+      "password": "$2a$10$BWUgVd284NDEBfIHcSO03.GZ1YTG0MyfHv.obCFYXCfw9G.ujB4fe",
+      "firstName": "John",
+      "lastName": "Doe",
+      "numberOfAnswers": 1,
       "id": 1
+    },
+    {
+      "email": "selma.cokljat@gmail.com",
+      "password": "$2a$10$WuxlWdBKsNSZy4ha3s3dq.qjY3DmYpJbQiDuaC/sHUhXhh8otA1Ki",
+      "firstName": "Selma",
+      "lastName": "Cokljat",
+      "numberOfAnswers": 2,
+      "id": 2
     }
   ],
   "questions": [
     {
-      "id": 1,
-      "dateOfPublished": "2022-09-23T15:58:19.089Z",
-      "content": "editovano pitanje ",
-      "userId": 1
+      "dateOfPublished": "2022-09-23T20:57:13.157Z",
+      "content": "Out of the four seasons, what’s your favorite one?",
+      "userId": 1,
+      "numberOfLikes": 0,
+      "id": 1
     },
     {
-      "id": 2,
-      "dateOfPublished": "2021-09-23T15:58:19.089Z",
-      "content": "editovano pitanje ",
-      "userId": 1
+      "dateOfPublished": "2022-09-23T20:57:33.607Z",
+      "content": "Do you care about what other people tell you?",
+      "userId": 1,
+      "numberOfLikes": 0,
+      "id": 2
     },
     {
       "id": 3,
-      "dateOfPublished": "2022-07-23T15:58:19.089Z",
-      "content": "editovano pitanje ",
-      "userId": 1
+      "dateOfPublished": "2022-07-23T20:58:07.769Z",
+      "content": "Have you ever thought of what your future baby will be named?",
+      "userId": 1,
+      "numberOfLikes": 2
     },
     {
       "id": 4,
-      "dateOfPublished": "2022-08-23T15:58:19.089Z",
-      "content": "nova pitanjca ",
-      "userId": 1
+      "dateOfPublished": "2022-09-23T20:58:22.777Z",
+      "content": "Who is your all-time favorite Disney character?",
+      "userId": 1,
+      "numberOfLikes": 1
     },
     {
       "id": 5,
-      "dateOfPublished": "2022-08-23T15:58:19.089Z",
-      "content": "nova pitanjca ",
-      "userId": 1
+      "dateOfPublished": "2022-09-23T21:00:48.179Z",
+      "content": "Do you actively post on social media?",
+      "userId": 1,
+      "numberOfLikes": 1
     },
     {
-      "dateOfPublished": "2022-09-23T16:56:20.838Z",
-      "content": "novo ",
-      "userId": 1,
+      "dateOfPublished": "2022-08-23T21:02:53.803Z",
+      "content": "What do you usually do during weekends?",
+      "userId": 2,
       "numberOfLikes": 0,
       "id": 6
     },
     {
-      "dateOfPublished": "2022-09-23T16:56:51.319Z",
-      "content": "nnn",
-      "userId": 1,
+      "dateOfPublished": "2022-09-23T21:03:12.165Z",
+      "content": "Do you believe in horoscopes?",
+      "userId": 2,
       "numberOfLikes": 0,
       "id": 7
     },
     {
-      "dateOfPublished": "2022-09-23T16:58:10.181Z",
-      "content": "da li rade sad pitanaj",
-      "userId": 1,
+      "dateOfPublished": "2022-09-23T21:04:38.915Z",
+      "content": "What is the best name you could think for a cat?",
+      "userId": 2,
       "numberOfLikes": 0,
       "id": 8
+    },
+    {
+      "id": 9,
+      "dateOfPublished": "2022-09-23T21:04:58.570Z",
+      "content": "Where is your all-time dream vacation?",
+      "userId": 2,
+      "numberOfLikes": 1
     }
   ],
   "likes": [
     {
       "userId": 1,
-      "questionId": 1,
+      "questionId": 4,
       "id": 1
+    },
+    {
+      "userId": 1,
+      "questionId": 3,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "questionId": 3,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "questionId": 9,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "questionId": 9,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "questionId": 5,
+      "id": 6
     }
   ],
   "dislikes": [
     {
       "userId": 1,
-      "questionId": 1,
+      "questionId": 2,
       "id": 1
     }
   ],
   "answers": [
     {
+      "userId": 2,
+      "questionId": "4",
+      "dateOfPublished": "2022-09-23T21:02:09.459Z",
+      "content": "Beauty from Beauty and the Beast",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "questionId": "9",
+      "dateOfPublished": "2022-09-23T21:05:31.955Z",
+      "content": "Zanzibar",
+      "id": 2
+    },
+    {
       "userId": 1,
-      "questionId": "1",
-      "dateOfPublished": "2022-09-23T16:17:58.843Z",
-      "content": "m",
+      "questionId": "9",
+      "dateOfPublished": "2022-09-23T21:07:12.243Z",
+      "content": "Paris",
+      "id": 3
+    }
+  ],
+  "answerLikes": [
+    {
+      "userId": 2,
+      "answerId": 1,
+      "questionId": 4,
       "id": 1
     }
   ],
-  "answerLikes": [],
   "answerDislikes": []
 }

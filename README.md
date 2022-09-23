@@ -1,4 +1,4 @@
-# ASK application server
+# [ask-app-server](https://ask-app-server.herokuapp.com/)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/scokljat/ask-app-server/blob/main/LICENSE)
 
@@ -11,7 +11,7 @@ Clone the repository using **Git**:
 ```
 git clone https://github.com/scokljat/ask-app-server.git
 ```
-Add .env file
+Add .env.development.local file
 
 ```
  PORT = PORT
@@ -22,16 +22,12 @@ For installing the dependencies run:
 
 ```bash
 npm install
-# Or
-yarn install
 ```
 
 At the end type:
 
 ```bash
 npm start
-# Or
-yarn start
 ```
 
 ## License
