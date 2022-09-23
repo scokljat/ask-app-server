@@ -1,5 +1,6 @@
 # ASK application server
 
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/scokljat/ask-app-server/blob/main/LICENSE)
 
 ## Getting started
