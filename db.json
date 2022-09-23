@@ -1,10 +1,90 @@
 {
-    "users":
-[ {
-    "id": 1,
-    "firstName": "Selma",
-    "lastName": "Cokljat",
-    "email": "selma.cokljat@hotmail.com",
-    "password": "password"
-  }]
+  "users": [
+    {
+      "email": "selma.cokljat@gmail.com",
+      "password": "$2a$10$GLfqJ0HrgBjtGd4kbA7dFOP84YbR04YFn1oOQct1.hkqykGPYM0HG",
+      "firstName": "Sellma",
+      "lastName": "Cokljat",
+      "numberOfAnswers": 4,
+      "id": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "dateOfPublished": "2022-09-23T15:58:19.089Z",
+      "content": "editovano pitanje ",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "dateOfPublished": "2021-09-23T15:58:19.089Z",
+      "content": "editovano pitanje ",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "dateOfPublished": "2022-07-23T15:58:19.089Z",
+      "content": "editovano pitanje ",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "dateOfPublished": "2022-08-23T15:58:19.089Z",
+      "content": "nova pitanjca ",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "dateOfPublished": "2022-08-23T15:58:19.089Z",
+      "content": "nova pitanjca ",
+      "userId": 1
+    },
+    {
+      "dateOfPublished": "2022-09-23T16:56:20.838Z",
+      "content": "novo ",
+      "userId": 1,
+      "numberOfLikes": 0,
+      "id": 6
+    },
+    {
+      "dateOfPublished": "2022-09-23T16:56:51.319Z",
+      "content": "nnn",
+      "userId": 1,
+      "numberOfLikes": 0,
+      "id": 7
+    },
+    {
+      "dateOfPublished": "2022-09-23T16:58:10.181Z",
+      "content": "da li rade sad pitanaj",
+      "userId": 1,
+      "numberOfLikes": 0,
+      "id": 8
+    }
+  ],
+  "likes": [
+    {
+      "userId": 1,
+      "questionId": 1,
+      "id": 1
+    }
+  ],
+  "dislikes": [
+    {
+      "userId": 1,
+      "questionId": 1,
+      "id": 1
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "questionId": "1",
+      "dateOfPublished": "2022-09-23T16:17:58.843Z",
+      "content": "m",
+      "id": 1
+    }
+  ],
+  "answerLikes": [],
+  "answerDislikes": []
 }
